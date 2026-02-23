@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>Daniel Fahmy Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&family=Rajdhani&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/5384779d31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 class="name" id="refresh"><span class="d">D</span>aniel<span class="f">F</span><span class="lastname">ahmy</span></h1>
+        <nav>
+            <ul id="sidemenu">
+                <li><a href=".home">Home</a></li>
+                <li><a href=".about">About</a></li>
+                <li><a href=".skills">Skills</a></li>
+                <li><a href=".portfolio">Portfolio</a></li>
+                <li><a href=".contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+    <main class="home">
+        <div class="home-inner">
+            <div class="home-left">
+                <p>Frontend / Full-Stack Software Developer</p>
+                <h1>Hi, I'm <span>Daniel</span> </h1>
+                <h1>From New York</h1>
+            </div>
+            <div class="home-right">
+                <div class="profile-photo" aria-label="Profile photo placeholder"></div>
+            </div>
+        </div>
+    </main>
+    <section class="about">
+        <div class="container">
+            <div class="box">
+            <h1 class="headers">About Me</h1>
+                <div class="summary">
+                <p id="summary">I’m a Computer Science alumnus from the College of Staten Island 
+                    interested in building simple and easy-to-use technology. I enjoy working on 
+                    web and software projects and learning how technology can be used to solve 
+                    everyday problems. Most of my projects were done using HTML, CSS, JavaScript, 
+                    Java, and JavaFX. I continue to learn and improve my skills.My goal is to make 
+                    technology more accessible and straightforward, and to use it in ways that can 
+                    help people and address real-world challenges.
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <div class="box">
+            <h1 class="headers">Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End</h2>
+                    <ul class="skill-bullets">
+                        <li>HTML</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Back-End</h2>
+                    <ul class="skill-bullets">
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fas fa-database"></i>
+                    <h2>Database</h2>
+                    <ul class="skill-bullets">
+                        <li>MySQL</li>
+                        <li>MSQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="box">
+            <h1 class="headers">Portfolio</h1>
+            <div class="portfolio-list">
+                <div class="project">
+                    <img src="img/Holiday API Web App.jpg">
+                    <div class="layer">
+                        <h3>
+                        - Built a responsive web application that fetches and dynamically displays holiday data from a REST API <br>
+                        - Implemented boolean-based filtering for nationwide vs. regional holidays using JavaScript <br>
+                        - Designed a clean, user-friendly interface using Bootstrap and custom CSS <br>
+                            <a href="https://github.com/DanielFahmy/Holidays-API-Web-App" target="_blank" rel="noopener noreferrer">GitHub</a> |
+                        <a href="https://danielfahmy.github.io/Holidays-API-Web-App/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/Tetris Game Menu.png">
+                    <div class="layer">
+                        <h3>
+                        - Designed and implemented the game UI, main menu, animations, and visual effects using JavaFX <br>
+                        - Integrated background music and sound effects for immersive gameplay <br>
+                        - Collaborated in a 3-person team to deliver a complete desktop application <br>
+                        <a href="https://github.com/jthomas010323/Tetris/tree/Daniel" target="_blank" rel="noopener noreferrer">GitHub</a> |
+                        <a href="https://www.youtube.com/watch?v=O8ReqqipI6I" target="_blank" rel="noopener noreferrer">Video Demo</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/Untitled Shooting Game.png">
+                    <div class="layer">
+                        <h3>
+                        - Built the frontend layout and UI framework for a team-based browser game using HTML and CSS <br>
+                        <a href="https://github.com/DinorahGV02/Untitled-Shooting-Game" target="_blank" rel="noopener noreferrer">GitHub</a> |
+                        <a href="https://untitled-shooting-game.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a> |
+                        <a href="https://devpost.com/software/untitled-shooting-game" target="_blank" rel="noopener noreferrer">Dev Post</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer class="contact">
+        <div class="container">
+            <div class="box">
+            <h1 class="headers">Contact Me</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fa-regular fa-envelope"></i>daniel.fahmyy7@gmail.com</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/danielfahmy/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/DanielFahmy"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="resume/Daniel Fahmy_Resume_.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/mnjbpvyg" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright © 2023 Daniel Fahmy. All Rights Reserved</div>
+    </footer>
+    <script src="portfolio1.js"></script>
+</body>
+</html>
