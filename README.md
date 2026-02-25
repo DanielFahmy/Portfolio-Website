@@ -1,8 +1,7 @@
 # Daniel Fahmy – Portfolio Website
 
 ## 📖 Overview
-A personal portfolio website built to showcase my projects, skills, and background as a Computer Science student and aspiring frontend/ full-stack software developer.  
-The site is fully responsive, easy to navigate, and designed with a clean, minimal layout to highlight my work.
+A personal portfolio website built to showcase my projects, skills, and background as a Computer Science student and aspiring frontend/ full-stack software developer. The site is fully responsive, easy to navigate, and designed with a clean, minimal layout to highlight my work.
 
 ---
 
@@ -37,7 +36,7 @@ The site is fully responsive, easy to navigate, and designed with a clean, minim
 - Styled the layout and components using custom CSS  
 - Implemented interactive behavior and navigation using JavaScript  
 - Organized content into clear, user-friendly sections  
-- Deployed the site usibng Netlify for public access 
+- Deployed the site using Netlify for public access 
 
 ---
 
